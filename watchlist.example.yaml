@@ -1,0 +1,17 @@
+# 自选股池。code 可写 600519 / sh600519 / 600519.SH / 00700 / 0700.HK
+stocks:
+  - {code: 600519, note: 贵州茅台}
+  - {code: 000858, note: 五粮液}
+  - {code: 300750, note: 宁德时代}
+  - {code: 601318, note: 中国平安}
+  - {code: 002594, note: 比亚迪}
+  - {code: 600036, note: 招商银行}
+  - {code: 688981, note: 中芯国际}
+  - {code: 002466, note: 天齐锂业}
+  - {code: 600030, note: 中信证券}
+  - {code: 000001, note: 平安银行}
+  - {code: 00700, note: 腾讯控股}
+  - {code: 09988, note: 阿里巴巴}
+  - {code: 03690, note: 美团}
+  - {code: 01810, note: 小米集团}
+  - {code: 00981, note: 中芯国际(港)}

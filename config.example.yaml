@@ -1,0 +1,14 @@
+# 复制为 config.yaml 后修改。未列出的项使用默认值（见 chanlun/config.py）。
+data:
+  providers: {CN: [baostock, sina], HK: [sina_hk, yfinance]}
+  db_path: data/market.db
+  intraday_supplement: true
+  history: {5m: 2y, 30m: 3y, D: all, W: all}
+engine:
+  bi: {mode: old, fx_check: strict}
+  seg: {algo: feature_seq}
+  zs: {kinds: [bi, seg], bi_zs_cross_seg: true, upgrade_hint_after: 9}
+  macd: {fast: 12, slow: 26, signal: 9}
+  divergence: {metrics: [area, dif_peak], zero_band: null, zero_band_ratio: 0.2}
+  bsp: {types: [1, 2, 3], sub_level_check: true}
+ui: {default_level: D, remember_last: true, port: 8501, max_render_bars: 3000}
