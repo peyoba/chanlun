@@ -7,11 +7,12 @@ from .codes import normalize, CodeError
 def load(path: Path) -> list[dict]:
     if not path.exists():
         return []
-    d = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    # BaseLoader：所有标量保持字符串，避免 YAML 1.1 把 00700 / 002466 解析成八进制整数
+    d = yaml.load(path.read_text(encoding="utf-8"), Loader=yaml.BaseLoader) or {}
     out = []
     for s in d.get("stocks", []):
         try:
-            c = normalize(str(s["code"]))
+            c = normalize(str(s["code"]).strip())
         except CodeError:
             continue
         out.append({"code": c.code, "note": s.get("note", "")})

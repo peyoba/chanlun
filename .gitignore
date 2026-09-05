@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 tests/crossval/chan.py/
+.DS_Store
