@@ -77,7 +77,7 @@ def pool(levels: Optional[str] = typer.Option("D", "--levels", "-l")):
             try:
                 res = assemble(c.code, lv, cfg)
                 p = out_dir / f"{c.code}_{lv}.html"
-                render_stock(res, p, cfg)
+                render_stock(res, p, cfg, nav_rows=rows + [{"code": c.code, "name": res.meta.get("name", ""), "level": lv, "file": p.name, "last_bsp": ""}])
                 rows.append({"code": c.code, "name": res.meta.get("name", ""), "level": lv, "file": p.name,
                              "last_bsp": res.bsps[-1].summary() if res.bsps else "", "bars": len(res.bars)})
                 typer.echo(f"{c.code} {lv} ok")
