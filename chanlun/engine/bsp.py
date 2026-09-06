@@ -22,9 +22,10 @@ def find_bsps(bars, bis: list[Bi], segs: list[Seg], zs_bi: list[ZhongShu], zs_se
         # ---- 一买/一卖 ----
         if 1 in cfg.bsp.types:
             for dv in divs:
-                if not (kind == "seg" and dv.seg_c in by_id and zss and any(z.id == dv.zs_id and z.kind == kind for z in zss)):
-                    if not (kind == "bi" and any(z.id == dv.zs_id and z.kind == kind for z in zss)):
-                        continue
+                # 笔/段各自从 0 编号；必须用「本级别中枢的离开段 == 背驰段」对齐，避免笔级背驰挂到同号线段上
+                zs = next((z for z in zss if z.id == dv.zs_id and z.kind == kind), None)
+                if zs is None or zs.leave_id != dv.seg_c:
+                    continue
                 c = by_id.get(dv.seg_c)
                 if c is None:
                     continue
@@ -39,7 +40,7 @@ def find_bsps(bars, bis: list[Bi], segs: list[Seg], zs_bi: list[ZhongShu], zs_se
                 ]
                 bsp = BSP(len(out), f"1{side}", kind, ts.iloc[c.end_raw], c.end_raw, c.end_price, grade, dv.confirmed, dv.confirmed_at,
                           {"zs": dv.zs_id, "div": dv.id, kind: c.id}, "", checks, "", [])
-                explain(bsp, {"dv": dv, "zs": next(z for z in zss if z.id == dv.zs_id)})
+                explain(bsp, {"dv": dv, "zs": zs})
                 out.append(bsp)
                 # ---- 二买/二卖：一买之后第 2 个反向元素的终点 ----
                 if 2 in cfg.bsp.types:

@@ -1,4 +1,5 @@
-data/
+# 只忽略仓库根目录行情缓存，不要误伤 chanlun/data/ 源码
+/data/
 .venv/
 __pycache__/
 *.pyc

@@ -4,10 +4,13 @@ import html
 from pathlib import Path
 from ..engine.models import AnalysisResult
 from ..config import AppConfig
+from .narrative import analysis_html
 from .plotly_chart import build_figure
 
 _CSS = """<style>body{font-family:-apple-system,'PingFang SC',sans-serif;margin:0;padding:0 12px}table{border-collapse:collapse;font-size:13px;width:100%}
 td,th{border:1px solid #ddd;padding:4px 8px;vertical-align:top}th{background:#f5f5f5;text-align:left}.strict{color:#d62728;font-weight:600}.suspect{color:#888}
+.analysis{margin:12px 0 16px;padding:10px 14px;background:#f7f7f5;border:1px solid #e6e6e2;border-radius:8px;font-size:14px;line-height:1.65}
+.analysis h3{margin:0 0 8px;font-size:16px}.analysis p{margin:0 0 8px}
 details{margin:2px 0}summary{cursor:pointer}.pass{color:#2ca02c}.fail{color:#d62728}.weak{color:#ff7f0e}small{color:#666}
 #nav{position:fixed;top:0;left:0;bottom:0;width:200px;overflow-y:auto;background:#fafafa;border-right:1px solid #e0e0e0;padding:10px;box-sizing:border-box;font-size:13px}
 #nav a{display:inline-block;margin:1px 4px 1px 0;text-decoration:none;color:#1f77b4}
@@ -55,7 +58,7 @@ def render_stock(res: AnalysisResult, path: Path, cfg: AppConfig, show_fx: bool 
     nav = nav_html(nav_rows, res.meta.get("code", ""), str(res.meta.get("level")), path.name if path.name != "index.html" else "index.html") if nav_rows else ""
     close = "</div>" if nav else ""
     body = (f"<!doctype html><html><head><meta charset='utf-8'><title>{res.meta.get('code')} {res.meta.get('name')} {res.meta.get('level')}</title>{_CSS}</head><body>"
-            f"{nav}{chart}{note}<h3>买卖点（{res.meta.get('level')}）</h3>{bsp_table(res)}{close}</body></html>")
+            f"{nav}{analysis_html(res)}{chart}{note}<h3>买卖点（{res.meta.get('level')}）</h3>{bsp_table(res)}{close}</body></html>")
     path.write_text(body, encoding="utf-8")
     return path
 

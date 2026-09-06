@@ -126,7 +126,9 @@ def ui(port: Optional[int] = typer.Option(None, "--port")):
     import subprocess
     cfg = load_config()
     app_path = Path(__file__).parent / "ui" / "app.py"
-    subprocess.run([sys.executable, "-m", "streamlit", "run", str(app_path), "--server.port", str(port or cfg.ui.port),
+    subprocess.run([sys.executable, "-m", "streamlit", "run", str(app_path),
+                    "--server.port", str(port or cfg.ui.port),
+                    "--server.headless", "true",
                     "--browser.gatherUsageStats", "false"], cwd=cfg.root)
 
 @app.command()
