@@ -4,4 +4,4 @@ set -e
 cd "$(dirname "$0")/.."
 .venv/bin/chan update --all
 .venv/bin/chan pool -l 5m,30m,D,W
-vercel deploy output --prod --yes
+cp vercel.json output/vercel.json 2>/dev/null; vercel deploy output --prod --yes
