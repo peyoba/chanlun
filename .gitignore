@@ -6,3 +6,4 @@ __pycache__/
 *.egg-info/
 tests/crossval/chan.py/
 .DS_Store
+output/
