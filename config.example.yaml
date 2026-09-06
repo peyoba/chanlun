@@ -7,7 +7,7 @@ data:
 engine:
   bi: {mode: old, fx_check: strict}
   seg: {algo: feature_seq}
-  zs: {kinds: [bi, seg], bi_zs_cross_seg: true, upgrade_hint_after: 9}
+  zs: {kinds: [bi, seg], bi_zs_cross_seg: false, upgrade_hint_after: 9}   # bi_zs_cross_seg=true 可回到 M1 初版口径（笔中枢不按线段切分）
   macd: {fast: 12, slow: 26, signal: 9}
   divergence: {metrics: [area, dif_peak], zero_band: null, zero_band_ratio: 0.2}
   bsp: {types: [1, 2, 3], sub_level_check: true}

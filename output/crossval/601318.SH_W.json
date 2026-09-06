@@ -1,0 +1,105 @@
+{
+ "summary": {
+  "code": "601318.SH",
+  "level": "W",
+  "bars": 999,
+  "data_hash": "0af8312478e5",
+  "bi_all": 0.9811,
+  "bi_conf": 0.9808,
+  "bi_n": "52/54",
+  "seg_all": 0.6154,
+  "seg_conf": 0.75,
+  "seg_n": "4/9",
+  "zsbi_all": 0.8571,
+  "zsbi_conf": 0.8333,
+  "zsbi_n": "7/7",
+  "zsseg_all": 1.0,
+  "zsseg_n": "0/0",
+  "bsp": "1/7/7",
+  "t_ours": 0.0,
+  "t_theirs": 0.01
+ },
+ "diffs": [
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-07-03 00:00:00",
+   "price": 46.9,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-09-04 00:00:00",
+   "price": 58.99,
+   "kind": "top",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2007-10-12 00:00:00",
+   "price": 45.2506338,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2008-10-31 00:00:00",
+   "price": 6.2695348,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2010-10-29 00:00:00",
+   "price": 21.4466112,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2011-09-30 00:00:00",
+   "price": 10.78687323,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-03 00:00:00",
+   "price": 46.9,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2007-10-12~2011-04-22",
+   "price": 21.8804505,
+   "kind": "zd=14.990 n=10",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2009-07-24~2010-05-21",
+   "price": 19.90783956,
+   "kind": "zd=13.775 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  }
+ ]
+}

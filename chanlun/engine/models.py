@@ -15,9 +15,11 @@ class MergedBar:
     raw_start: int      # 原始 K 线起始索引
     raw_end: int        # 原始 K 线结束索引（含）
     ts: pd.Timestamp    # 取 raw_end 的时间戳
-    # 极值所在原始 K 线索引（用于绘图定位）
+    # 极值所在原始 K 线索引与时间（用于绘图定位、分型发生时间）
     high_raw: int = -1
     low_raw: int = -1
+    high_ts: pd.Timestamp | None = None
+    low_ts: pd.Timestamp | None = None
 
 @dataclass
 class Fractal:

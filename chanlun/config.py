@@ -28,7 +28,7 @@ class SegConfig(BaseModel):
 
 class ZsConfig(BaseModel):
     kinds: list[Literal["bi", "seg"]] = ["bi", "seg"]
-    bi_zs_cross_seg: bool = True   # M1 初版不加不跨线段约束；M2 改 False
+    bi_zs_cross_seg: bool = False  # 笔中枢不跨线段（02 §5.2；M1 初版曾为 True，2026-09-05 交叉验证后改 False，见 ADR-018）
     upgrade_hint_after: int = 9
 
 class MacdConfig(BaseModel):

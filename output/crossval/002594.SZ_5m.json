@@ -1,0 +1,1599 @@
+{
+ "summary": {
+  "code": "002594.SZ",
+  "level": "5m",
+  "bars": 23232,
+  "data_hash": "6ac17abe3f3a",
+  "bi_all": 0.9838,
+  "bi_conf": 0.9833,
+  "bi_n": "891/904",
+  "seg_all": 0.7054,
+  "seg_conf": 0.6979,
+  "seg_n": "101/140",
+  "zsbi_all": 0.781,
+  "zsbi_conf": 0.7707,
+  "zsbi_n": "108/102",
+  "zsseg_all": 0.0645,
+  "zsseg_n": "14/17",
+  "bsp": "32/125/119",
+  "t_ours": 0.04,
+  "t_theirs": 0.26
+ },
+ "diffs": [
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-03-21 14:05:00",
+   "price": 121.42766174,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-20 10:15:00 @ 129.957"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-07-25 13:30:00",
+   "price": 110.99829202,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-24 14:30:00 @ 112.767"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-07-28 09:35:00",
+   "price": 110.15816658,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-28 13:05:00 @ 110.266"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-12-19 10:20:00",
+   "price": 94.83379902,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-12-25 10:45:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-12-19 15:00:00",
+   "price": 93.87739134,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-18 15:00:00 @ 93.160"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-03-12 10:05:00",
+   "price": 100.25344254,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-13 10:15:00 @ 100.363"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-03-13 09:35:00",
+   "price": 97.94212398,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-13 10:45:00 @ 99.516"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-03-30 13:15:00",
+   "price": 106.70919438,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-30 10:10:00 @ 106.789"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-01-21 14:00:00",
+   "price": 93.5952248,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-21 10:15:00 @ 93.070"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-01-21 14:55:00",
+   "price": 93.9562162,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-21 11:25:00 @ 94.327"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-03-24 09:45:00",
+   "price": 120.768032,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-25 13:05:00 @ 121.431"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-03-24 10:15:00",
+   "price": 123.32122572,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-25 09:40:00 @ 124.506"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-03-24 11:30:00",
+   "price": 121.8838236,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-25 13:05:00 @ 121.431"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-07-28 09:55:00",
+   "price": 111.08361726,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-29 09:40:00 @ 112.069"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-07-28 13:05:00",
+   "price": 110.266464,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-28 09:35:00 @ 110.158"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-22 09:40:00",
+   "price": 94.9932003,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-12-16 11:05:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-22 10:25:00",
+   "price": 94.12645584,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-24 10:50:00 @ 93.708"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-22 11:15:00",
+   "price": 94.51499646,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-23 09:35:00 @ 95.083"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-22 14:35:00",
+   "price": 93.8973165,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-24 10:50:00 @ 93.708"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-01-09 13:05:00",
+   "price": 96.54736278,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-08 09:35:00 @ 95.989"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-01-09 14:55:00",
+   "price": 97.0853421,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-09 10:05:00 @ 97.574"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-03-13 13:55:00",
+   "price": 99.3269226,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-13 10:45:00 @ 99.516"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-03-13 14:25:00",
+   "price": 99.64572516,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-13 13:10:00 @ 100.124"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-03-31 09:45:00",
+   "price": 107.9445543,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-30 13:15:00 @ 106.709"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-03-31 13:05:00",
+   "price": 105.63323574,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-01 10:35:00 @ 102.007"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-03-31 13:55:00",
+   "price": 106.1512899,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-01 11:05:00 @ 102.894"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-04-10 13:55:00",
+   "price": 101.80760502,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-10 10:25:00 @ 101.598"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-04-10 14:55:00",
+   "price": 101.13014958,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-10 11:20:00 @ 100.004"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-09-04 14:50:00",
+   "price": 87.28,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-09-19 09:50:00",
+   "price": 83.1264742,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-18 09:55:00 @ 83.422"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-09-20 09:40:00",
+   "price": 84.92814946,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-18 14:05:00 @ 85.105"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-10-23 13:20:00",
+   "price": 102.32137146,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-22 10:10:00 @ 101.773"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-10-28 09:55:00",
+   "price": 99.0593219,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-24 14:00:00 @ 99.299"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-10-29 10:05:00",
+   "price": 101.81926524,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-25 13:05:00 @ 102.308"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2024-12-19 14:30:00",
+   "price": 94.16296582,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-12-18 10:00:00 @ 94.147"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-01-13 09:35:00",
+   "price": 86.309762,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-10 10:15:00 @ 86.904"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-08-29 10:55:00",
+   "price": 116.14375764,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-08-26 11:25:00 @ 114.241"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-10-27 09:55:00",
+   "price": 104.56723968,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-29 13:50:00 @ 104.747"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-12-02 09:45:00",
+   "price": 97.40414466,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-11-26 10:20:00 @ 95.073"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-12-04 10:25:00",
+   "price": 93.85746618,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-10 09:40:00 @ 94.565"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-03-13 10:15:00",
+   "price": 100.36303092,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-09 14:20:00 @ 97.633"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-03-16 09:45:00",
+   "price": 98.4302904,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-11 09:45:00 @ 95.322"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-04-24 10:10:00",
+   "price": 98.3306646,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-23 09:55:00 @ 98.679"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-07-10 09:35:00",
+   "price": 84.5823042,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-07-07 10:05:00 @ 85.559"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-08-03 09:50:00",
+   "price": 96.58,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-07-30 10:05:00 @ 96.298"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-09-18 09:55:00",
+   "price": 83.4218308,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-19 09:50:00 @ 83.126"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-09-18 14:05:00",
+   "price": 85.10536342,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-20 09:40:00 @ 84.928"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-09-20 10:45:00",
+   "price": 82.98864112,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-19 09:50:00 @ 83.126"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-09-23 10:05:00",
+   "price": 84.32102756,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-09-20 09:40:00 @ 84.928"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-10-22 10:10:00",
+   "price": 101.77332088,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-23 13:20:00 @ 102.321"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-10-24 14:00:00",
+   "price": 99.29888892,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-28 09:55:00 @ 99.059"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-10-25 13:05:00",
+   "price": 102.3082445,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-23 13:20:00 @ 102.321"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-12-18 10:00:00",
+   "price": 94.14655712,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-12-19 14:30:00 @ 94.163"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-12-23 09:35:00",
+   "price": 91.560546,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-12-16 13:05:00 @ 89.782"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-12-30 09:35:00",
+   "price": 95.006373,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-09 13:20:00 @ 89.155"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-03 09:50:00",
+   "price": 88.05236594,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-08 13:10:00 @ 87.235"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-07 10:05:00",
+   "price": 91.12735632,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-09 13:20:00 @ 89.155"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-10 10:15:00",
+   "price": 86.90375694,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-08 13:10:00 @ 87.235"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-22 10:00:00",
+   "price": 91.82636694,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-27 15:00:00 @ 90.084"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-23 09:35:00",
+   "price": 93.52302652,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-21 11:25:00 @ 94.327"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-02-14 11:20:00",
+   "price": 118.00808866,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-02-11 09:35:00 @ 111.579"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-02-17 14:10:00",
+   "price": 113.055943,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-02-12 09:40:00 @ 106.000"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-04-15 09:35:00",
+   "price": 119.78022826,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-27 11:20:00 @ 128.349"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-04-18 13:35:00",
+   "price": 112.891856,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-04-09 09:40:00 @ 102.948"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-04-23 09:35:00",
+   "price": 123.721598,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-27 11:20:00 @ 128.349"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-08 09:35:00",
+   "price": 116.78399964,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-03 09:35:00 @ 114.562"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-09 10:10:00",
+   "price": 120.10840226,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-05-23 11:30:00 @ 136.835"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-12 10:50:00",
+   "price": 118.3395444,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-03 09:35:00 @ 114.562"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-06-04 09:50:00",
+   "price": 119.55706994,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-11 09:55:00 @ 120.043"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-06-09 13:05:00",
+   "price": 113.2692561,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-03 09:35:00 @ 114.562"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-06-16 09:45:00",
+   "price": 111.907334,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-23 09:35:00 @ 109.495"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-06-18 13:05:00",
+   "price": 114.5983608,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-25 14:45:00 @ 114.772"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-01 09:45:00",
+   "price": 107.9036112,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-23 09:35:00 @ 109.495"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-03 11:25:00",
+   "price": 110.0203335,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-25 14:45:00 @ 114.772"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-25 11:05:00",
+   "price": 110.11550396,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-08-04 09:45:00 @ 102.206"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-29 09:40:00",
+   "price": 112.06906242,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-24 10:45:00 @ 113.712"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-08-26 11:25:00",
+   "price": 114.24090486,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-08-29 10:55:00 @ 116.144"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-10-13 13:05:00",
+   "price": 103.78019586,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-23 10:10:00 @ 101.618"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-10-16 10:20:00",
+   "price": 108.83122392,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-09 11:00:00 @ 112.039"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-10-24 09:45:00",
+   "price": 103.9595223,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-27 09:55:00 @ 104.567"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-11-26 10:20:00",
+   "price": 95.07290094,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-02 09:45:00 @ 97.404"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-11-28 10:05:00",
+   "price": 93.8475036,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-04 10:25:00 @ 93.857"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-12-31 14:40:00",
+   "price": 97.14511758,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-12 09:50:00 @ 95.950"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-01-06 13:20:00",
+   "price": 100.123929,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-13 09:35:00 @ 99.217"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-01-14 14:05:00",
+   "price": 95.16256416,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-12 09:50:00 @ 95.950"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-01-19 09:35:00",
+   "price": 96.92594082,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-13 09:35:00 @ 99.217"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-03-09 14:20:00",
+   "price": 97.633284,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-13 10:15:00 @ 100.363"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-03-11 09:45:00",
+   "price": 95.32196544,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-16 09:45:00 @ 98.430"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-03-26 14:05:00",
+   "price": 102.3655095,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-16 09:45:00 @ 98.430"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-03-31 09:45:00",
+   "price": 107.9445543,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-03-23 10:05:00 @ 111.372"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-13 13:25:00",
+   "price": 104.59712742,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-16 14:20:00 @ 105.563"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-15 10:30:00",
+   "price": 102.116445,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-07 13:20:00 @ 97.095"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-23 09:55:00",
+   "price": 98.6793549,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-24 10:10:00 @ 98.331"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-27 09:55:00",
+   "price": 103.610832,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-29 14:35:00 @ 105.225"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-29 09:35:00",
+   "price": 100.66190832,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-24 10:10:00 @ 98.331"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-07 10:05:00",
+   "price": 85.55863704,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-07-10 09:35:00 @ 84.582"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-21 09:35:00",
+   "price": 96.4377744,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-08-03 09:50:00 @ 96.580"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-24 09:35:00",
+   "price": 91.12771926,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-07-10 09:35:00 @ 84.582"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-30 10:05:00",
+   "price": 96.29829828,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-08-03 09:50:00 @ 96.580"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-09-04 14:50:00",
+   "price": 87.28,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-09-18~2024-09-19",
+   "price": 84.340718,
+   "kind": "zd=83.609 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-09-20~2024-09-23",
+   "price": 83.68437,
+   "kind": "zd=83.002 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-10-24~2024-10-28",
+   "price": 101.05790156,
+   "kind": "zd=99.906 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-10-30~2024-10-30",
+   "price": 100.7330093,
+   "kind": "zd=99.391 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-12-20~2024-12-25",
+   "price": 92.95200376,
+   "kind": "zd=92.374 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-01-02~2025-01-03",
+   "price": 90.11329866,
+   "kind": "zd=89.306 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-01-13~2025-01-13",
+   "price": 87.622458,
+   "kind": "zd=87.065 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-01-22~2025-01-23",
+   "price": 92.97497594,
+   "kind": "zd=92.151 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-02-14~2025-02-17",
+   "price": 117.71273206,
+   "kind": "zd=115.944 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-03-21~2025-03-25",
+   "price": 122.42859244,
+   "kind": "zd=121.431 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-04-15~2025-04-16",
+   "price": 118.34282614,
+   "kind": "zd=117.270 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-04-16~2025-04-30",
+   "price": 115.09718528,
+   "kind": "zd=113.775 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-06-04~2025-06-09",
+   "price": 119.08778112,
+   "kind": "zd=118.208 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-07-25~2025-07-29",
+   "price": 110.99829202,
+   "kind": "zd=110.158 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-08-26~2025-08-28",
+   "price": 113.05535784,
+   "kind": "zd=112.268 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-10-10~2025-10-14",
+   "price": 108.91092456,
+   "kind": "zd=108.303 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-11-26~2025-12-02",
+   "price": 94.9932003,
+   "kind": "zd=94.415 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-12-19~2025-12-26",
+   "price": 94.83379902,
+   "kind": "zd=93.877 n=8",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-01-06~2026-01-06",
+   "price": 99.74535096,
+   "kind": "zd=99.058 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-01-14~2026-01-19",
+   "price": 97.0355292,
+   "kind": "zd=96.248 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-03-17~2026-03-23",
+   "price": 103.48131846,
+   "kind": "zd=101.509 n=6",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-03-24~2026-03-30",
+   "price": 105.46387188,
+   "kind": "zd=104.557 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-04-13~2026-04-16",
+   "price": 104.32813776,
+   "kind": "zd=102.156 n=6",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-04-27~2026-04-29",
+   "price": 102.19614564,
+   "kind": "zd=100.981 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-07-23~2026-07-24",
+   "price": 92.2534908,
+   "kind": "zd=91.566 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-07-29~2026-08-03",
+   "price": 95.90975766,
+   "kind": "zd=94.645 n=6",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2024-10-28~2024-10-30",
+   "price": 100.35232746,
+   "kind": "zd=99.240 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2024-12-19~2024-12-20",
+   "price": 93.693677,
+   "kind": "zd=92.479 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2024-12-30~2024-12-31",
+   "price": 93.23095166,
+   "kind": "zd=92.982 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-03-24~2025-03-25",
+   "price": 123.32122572,
+   "kind": "zd=121.884 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-04-16~2025-04-17",
+   "price": 115.09718528,
+   "kind": "zd=114.369 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-05-09~2025-05-12",
+   "price": 119.45205426,
+   "kind": "zd=118.563 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-07-01~2025-07-02",
+   "price": 109.15723588,
+   "kind": "zd=108.599 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-08-28~2025-08-29",
+   "price": 108.7913736,
+   "kind": "zd=107.895 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-12-02~2025-12-03",
+   "price": 96.41784924,
+   "kind": "zd=95.890 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-12-03~2025-12-05",
+   "price": 95.142639,
+   "kind": "zd=94.356 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-12-22~2025-12-25",
+   "price": 94.51499646,
+   "kind": "zd=94.126 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-01-05~2026-01-06",
+   "price": 98.98819488,
+   "kind": "zd=97.842 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-01-08~2026-01-09",
+   "price": 97.0853421,
+   "kind": "zd=96.547 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-01-16~2026-01-16",
+   "price": 96.6868389,
+   "kind": "zd=95.641 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-03-13~2026-03-18",
+   "price": 100.123929,
+   "kind": "zd=99.516 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-03-19~2026-03-20",
+   "price": 103.48131846,
+   "kind": "zd=102.565 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-03-27~2026-03-30",
+   "price": 105.46387188,
+   "kind": "zd=104.587 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-07-08~2026-07-14",
+   "price": 87.66074142,
+   "kind": "zd=86.575 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-07-22~2026-07-23",
+   "price": 91.33693344,
+   "kind": "zd=90.799 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-07-30~2026-08-03",
+   "price": 96.138897,
+   "kind": "zd=94.645 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2024-09-09~2024-09-24",
+   "price": 84.92814946,
+   "kind": "zd=83.126 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2024-10-23~2024-11-06",
+   "price": 101.81926524,
+   "kind": "zd=99.059 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2024-11-20~2024-12-19",
+   "price": 92.29237402,
+   "kind": "zd=90.904 n=8",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-01-08~2025-01-21",
+   "price": 89.15503058,
+   "kind": "zd=87.235 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-01-27~2025-03-04",
+   "price": 111.57916,
+   "kind": "zd=106.000 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-03-20~2025-05-23",
+   "price": 128.3488514,
+   "kind": "zd=121.093 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-06-03~2025-06-25",
+   "price": 114.77229302,
+   "kind": "zd=114.562 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-07-14~2025-10-29",
+   "price": 106.0018512,
+   "kind": "zd=104.215 n=21",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-11-05~2026-01-13",
+   "price": 97.40414466,
+   "kind": "zd=94.395 n=11",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2026-02-03~2026-03-13",
+   "price": 92.59221852,
+   "kind": "zd=88.767 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2026-03-13~2026-05-29",
+   "price": 100.36303092,
+   "kind": "zd=98.430 n=8",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2026-06-02~2026-06-29",
+   "price": 91.5561102,
+   "kind": "zd=88.557 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2026-06-29~2026-09-04",
+   "price": 88.54741104,
+   "kind": "zd=84.582 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2024-09-18~2024-09-23",
+   "price": 84.32102756,
+   "kind": "zd=83.422 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2024-11-01~2024-11-20",
+   "price": 95.2853209,
+   "kind": "zd=95.207 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2024-12-16~2024-12-30",
+   "price": 94.14655712,
+   "kind": "zd=91.561 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-01-03~2025-01-09",
+   "price": 89.15503058,
+   "kind": "zd=88.052 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-01-21~2025-01-27",
+   "price": 93.52302652,
+   "kind": "zd=91.826 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-02-14~2025-03-04",
+   "price": 118.00808866,
+   "kind": "zd=113.056 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-04-15~2025-05-12",
+   "price": 119.78022826,
+   "kind": "zd=116.784 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-06-03~2025-06-25",
+   "price": 119.55706994,
+   "kind": "zd=114.562 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-07-01~2025-07-24",
+   "price": 110.0203335,
+   "kind": "zd=107.904 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-08-07~2025-08-20",
+   "price": 106.0018512,
+   "kind": "zd=104.946 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-09-05~2025-10-16",
+   "price": 107.07780984,
+   "kind": "zd=104.507 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-12-10~2025-12-26",
+   "price": 96.72668922,
+   "kind": "zd=94.565 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-12-31~2026-01-13",
+   "price": 99.21733422,
+   "kind": "zd=97.145 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2026-04-23~2026-04-29",
+   "price": 103.610832,
+   "kind": "zd=100.662 n=3",
+   "category": "末端未确认",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2026-05-22~2026-06-02",
+   "price": 96.51747504,
+   "kind": "zd=93.250 n=3",
+   "category": "末端未确认",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2026-07-24~2026-08-26",
+   "price": 92.72,
+   "kind": "zd=91.128 n=3",
+   "category": "末端未确认",
+   "note": ""
+  }
+ ]
+}

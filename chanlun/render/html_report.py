@@ -27,7 +27,7 @@ def render_stock(res: AnalysisResult, path: Path, cfg: AppConfig, show_fx: bool 
     fig = build_figure(res, cfg.ui.max_render_bars, show_fx=show_fx)
     chart = fig.to_html(full_html=False, include_plotlyjs="cdn", config={"scrollZoom": True, "displaylogo": False})
     hi = res.projection.get("level") if res.projection else None
-    note = (f"<p><small>蓝色细线=笔，黑色粗线=线段，橙框=笔中枢（初版，未按线段切分），紫框=段中枢，浅蓝色块={hi}级别中枢投影；虚线=未确认（可能重画）。"
+    note = (f"<p><small>蓝色细线=笔，黑色粗线=线段，橙框=笔中枢（按所属线段切分），紫框=段中枢，浅蓝色块={hi}级别中枢投影；虚线=未确认（可能重画）。"
             f"实心三角=严格成立，空心=疑似。笔模式：{cfg.engine.bi.mode}。</small></p>")
     body = f"<!doctype html><html><head><meta charset='utf-8'><title>{res.meta.get('code')} {res.meta.get('name')} {res.meta.get('level')}</title>{_CSS}</head><body>{chart}{note}<h3>买卖点（{res.meta.get('level')}）</h3>{bsp_table(res)}</body></html>"
     path.write_text(body, encoding="utf-8")

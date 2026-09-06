@@ -13,7 +13,7 @@ def merge_klines(bars: pd.DataFrame) -> list[MergedBar]:
         i += 1
     if i >= n:
         return out
-    out.append(MergedBar(0, float(highs[i]), float(lows[i]), None, i, i, ts[i], i, i))
+    out.append(MergedBar(0, float(highs[i]), float(lows[i]), None, i, i, ts[i], i, i, ts[i], ts[i]))
     for j in range(i + 1, n):
         last = out[-1]
         h, l = float(highs[j]), float(lows[j])
@@ -26,16 +26,16 @@ def merge_klines(bars: pd.DataFrame) -> list[MergedBar]:
                 d = "up"  # 无前一根时默认向上（只影响序列最前端）
             if d == "up":
                 nh, nl = max(last.high, h), max(last.low, l)
-                high_raw = last.high_raw if last.high >= h else j
-                low_raw = last.low_raw if last.low >= l else j
+                high_raw = last.high_raw if last.high > h else j   # 等高取后出现的 K 线（对齐 chan.py）
+                low_raw = last.low_raw if last.low > l else j
             else:
                 nh, nl = min(last.high, h), min(last.low, l)
-                high_raw = last.high_raw if last.high <= h else j
-                low_raw = last.low_raw if last.low <= l else j
-            out[-1] = MergedBar(last.idx, nh, nl, d, last.raw_start, j, ts[j], high_raw, low_raw)
+                high_raw = last.high_raw if last.high < h else j
+                low_raw = last.low_raw if last.low < l else j
+            out[-1] = MergedBar(last.idx, nh, nl, d, last.raw_start, j, ts[j], high_raw, low_raw, ts[high_raw], ts[low_raw])
         else:
             d = "up" if h > last.high else "down"
-            out.append(MergedBar(len(out), h, l, d, j, j, ts[j], j, j))
+            out.append(MergedBar(len(out), h, l, d, j, j, ts[j], j, j, ts[j], ts[j]))
     return out
 
 def _contains(h1, l1, h2, l2) -> bool:

@@ -1,0 +1,240 @@
+{
+ "summary": {
+  "code": "000001.SZ",
+  "level": "W",
+  "bars": 1798,
+  "data_hash": "6579f536d2b5",
+  "bi_all": 0.9494,
+  "bi_conf": 0.9487,
+  "bi_n": "77/81",
+  "seg_all": 0.6957,
+  "seg_conf": 0.6667,
+  "seg_n": "8/15",
+  "zsbi_all": 0.5882,
+  "zsbi_conf": 0.5333,
+  "zsbi_n": "8/9",
+  "zsseg_all": 0.0,
+  "zsseg_n": "1/1",
+  "bsp": "1/7/9",
+  "t_ours": 0.0,
+  "t_theirs": 0.04
+ },
+ "diffs": [
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-05-24 00:00:00",
+   "price": 9.85700966,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-09-13 00:00:00",
+   "price": 8.64497341,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "1991-06-14 00:00:00",
+   "price": 0.403179,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2024-10-11 00:00:00",
+   "price": 12.08137283,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-01-24 00:00:00",
+   "price": 10.18536756,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-03-14 00:00:00",
+   "price": 11.031084,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-04-11 00:00:00",
+   "price": 9.63381336,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-09-04 00:00:00",
+   "price": 12.08,
+   "kind": "top",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "1991-06-14 00:00:00",
+   "price": 0.403179,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "1993-03-05 00:00:00",
+   "price": 0.85622,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "1996-01-26 00:00:00",
+   "price": 0.2964986,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "1997-05-16 00:00:00",
+   "price": 4.924843,
+   "kind": "top",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2005-04-01 00:00:00",
+   "price": 0.90902525,
+   "kind": "bottom",
+   "category": "多/少一笔或一段",
+   "note": "对方在附近没有同类端点（成笔 / 成段条件判定不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-07-03 00:00:00",
+   "price": 9.99,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-09-04 00:00:00",
+   "price": 12.08,
+   "kind": "top",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "1997-05-16~2002-09-06",
+   "price": 4.4613618,
+   "kind": "zd=2.648 n=10",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2003-04-18~2007-11-02",
+   "price": 2.052057,
+   "kind": "zd=1.372 n=6",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-10-10~2026-08-07",
+   "price": 11.60802258,
+   "kind": "zd=10.685 n=3",
+   "category": "末端未确认",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "1994-04-22~1995-08-25",
+   "price": 0.45019148,
+   "kind": "zd=0.358 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "1999-05-21~2002-09-06",
+   "price": 3.27487072,
+   "kind": "zd=2.648 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2003-01-10~2004-03-19",
+   "price": 2.052057,
+   "kind": "zd=1.755 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2024-10-11~2025-04-11",
+   "price": 11.031084,
+   "kind": "zd=10.185 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2007-11-02~2012-12-07",
+   "price": 6.90430554,
+   "kind": "zd=3.248 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "1997-05-16~2012-12-07",
+   "price": 4.924843,
+   "kind": "zd=1.874 n=5",
+   "category": "末端未确认",
+   "note": ""
+  }
+ ]
+}

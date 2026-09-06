@@ -97,9 +97,19 @@ def import_(file: str = typer.Argument("-", help="文件路径，或 - 读 stdin
 
 @app.command()
 def verify(code: str, level: str = typer.Option("D", "--level", "-l")):
-    """与 chan.py 交叉验证（需安装 dev 依赖）。"""
-    from tests.crossval.run import run_verify  # type: ignore
-    run_verify(code, level)
+    """与 chan.py 交叉验证（开发环境：需克隆 tests/crossval/chan.py，见 tests/crossval/BASELINE.md）。"""
+    import importlib.util
+    cfg = load_config()
+    script = cfg.root / "tests" / "crossval" / "run.py"
+    if not script.exists():
+        typer.echo(f"未找到 {script}：交叉验证脚本只在代码库开发环境中可用"); raise typer.Exit(1)
+    spec = importlib.util.spec_from_file_location("chanlun_crossval_run", script)
+    mod = importlib.util.module_from_spec(spec); sys.modules[spec.name] = mod  # 注册后再执行，dataclass 需要能找到模块
+    spec.loader.exec_module(mod)  # type: ignore[union-attr]
+    try:
+        mod.run_verify(code, level)
+    except RuntimeError as e:
+        typer.echo(str(e)); raise typer.Exit(1)
 
 @app.command()
 def ui(port: Optional[int] = typer.Option(None, "--port")):

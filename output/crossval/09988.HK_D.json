@@ -1,0 +1,222 @@
+{
+ "summary": {
+  "code": "09988.HK",
+  "level": "D",
+  "bars": 1666,
+  "data_hash": "87e75a681ab9",
+  "bi_all": 0.9884,
+  "bi_conf": 0.9825,
+  "bi_n": "85/87",
+  "seg_all": 0.5,
+  "seg_conf": 0.5263,
+  "seg_n": "9/15",
+  "zsbi_all": 0.6923,
+  "zsbi_conf": 0.6667,
+  "zsbi_n": "14/12",
+  "zsseg_all": 1.0,
+  "zsseg_n": "1/1",
+  "bsp": "2/10/13",
+  "t_ours": 0.0,
+  "t_theirs": 0.02
+ },
+ "diffs": [
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2019-12-04 00:00:00",
+   "price": 177.4309,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-09-03 00:00:00",
+   "price": 106.5,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2020-01-14 00:00:00",
+   "price": 214.0466,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2022-10-25 00:00:00",
+   "price": 56.712,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2023-01-26 00:00:00",
+   "price": 111.5414,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2019-12-04 00:00:00",
+   "price": 177.4309,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2020-03-19 00:00:00",
+   "price": 157.7582,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2020-09-02 00:00:00",
+   "price": 274.8531,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2020-12-28 00:00:00",
+   "price": 195.0328,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2021-04-13 00:00:00",
+   "price": 227.4127,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2022-03-15 00:00:00",
+   "price": 66.8307,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2022-07-08 00:00:00",
+   "price": 114.8359,
+   "kind": "top",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-06-26 00:00:00",
+   "price": 88.65,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-08-11 00:00:00",
+   "price": 130.3,
+   "kind": "top",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2020-03-19~2020-09-02",
+   "price": 199.3626,
+   "kind": "zd=175.925 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2021-03-09~2021-06-28",
+   "price": 224.5889,
+   "kind": "zd=205.763 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2022-11-18~2023-01-26",
+   "price": 78.5967,
+   "kind": "zd=77.655 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2023-03-20~2023-05-31",
+   "price": 83.962,
+   "kind": "zd=74.173 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-04-02~2026-09-03",
+   "price": 130.3,
+   "kind": "zd=116.469 n=4",
+   "category": "末端未确认",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2021-01-20~2021-03-09",
+   "price": 253.5802,
+   "kind": "zd=227.789 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2021-05-14~2021-06-28",
+   "price": 206.7046,
+   "kind": "zd=189.385 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2022-10-25~2023-05-18",
+   "price": 78.5967,
+   "kind": "zd=65.701 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  }
+ ]
+}

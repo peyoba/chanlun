@@ -1,0 +1,870 @@
+{
+ "summary": {
+  "code": "000001.SZ",
+  "level": "5m",
+  "bars": 23232,
+  "data_hash": "b29744a280ac",
+  "bi_all": 0.9684,
+  "bi_conf": 0.9673,
+  "bi_n": "492/489",
+  "seg_all": 0.7742,
+  "seg_conf": 0.7563,
+  "seg_n": "54/70",
+  "zsbi_all": 0.7931,
+  "zsbi_conf": 0.8,
+  "zsbi_n": "58/58",
+  "zsseg_all": 0.1538,
+  "zsseg_n": "5/8",
+  "bsp": "10/63/66",
+  "t_ours": 0.03,
+  "t_theirs": 0.23
+ },
+ "diffs": [
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-11-15 10:55:00",
+   "price": 10.67257377,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-11-14 10:40:00 @ 10.755"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-11-15 15:00:00",
+   "price": 10.50710751,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-11-15 09:55:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-11-29 10:10:00",
+   "price": 10.53468522,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-11-29 13:05:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-12-16 10:50:00",
+   "price": 10.60822578,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-12-19 09:35:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2024-12-16 13:10:00",
+   "price": 10.70934405,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-12-18 10:10:00 @ 10.792"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-02-24 11:25:00",
+   "price": 10.64499606,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-11-19 13:55:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-02-24 13:40:00",
+   "price": 10.71853662,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-11-05 13:05:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-07-18 10:20:00",
+   "price": 12.08775225,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-07-18 11:15:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-08-11 10:20:00",
+   "price": 11.64216452,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-07-03 09:35:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-08-12 10:25:00",
+   "price": 11.7559316,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-08-13 11:20:00 @ 11.718"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-09-19 13:10:00",
+   "price": 10.91215909,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-09-19 14:40:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-10-31 10:40:00",
+   "price": 10.9400046,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-11-03 09:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2025-11-06 09:35:00",
+   "price": 11.10458874,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2026-04-30 11:30:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-01-22 09:35:00",
+   "price": 10.70765052,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-20 09:40:00 @ 10.756"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-01-22 10:15:00",
+   "price": 10.7947833,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-01-20 11:15:00 @ 10.843"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-06-08 10:55:00",
+   "price": 10.7463762,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2026-06-02 10:05:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "ours_only",
+   "ts": "2026-06-08 14:30:00",
+   "price": 10.63988058,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2026-02-06 09:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2024-11-29 13:05:00",
+   "price": 10.53468522,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2024-11-29 10:10:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-07-18 11:15:00",
+   "price": 12.08775225,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-07-18 10:20:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-09-19 14:40:00",
+   "price": 10.91215909,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-09-19 13:10:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-11-03 09:50:00",
+   "price": 10.9400046,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-10-31 10:40:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-11-10 09:35:00",
+   "price": 11.09490732,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-12-04 10:45:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-11 10:10:00",
+   "price": 11.00777454,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-08 10:55:00 @ 11.230"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2025-12-11 14:00:00",
+   "price": 10.95936744,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-10 11:10:00 @ 10.930"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-02-11 09:50:00",
+   "price": 10.66892484,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-02-06 09:50:00 @ 10.640"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-02-11 14:15:00",
+   "price": 10.73669478,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-02-09 10:05:00 @ 10.756"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-04-30 11:30:00",
+   "price": 11.10458874,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-11-06 09:35:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-04-30 14:10:00",
+   "price": 11.15299584,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-04-30 09:50:00 @ 11.230"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-07-07 13:35:00",
+   "price": 10.51,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-07-06 14:25:00 @ 10.520"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-07-08 09:35:00",
+   "price": 10.35,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2026-07-07 09:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "bi",
+   "where": "theirs_only",
+   "ts": "2026-09-04 14:55:00",
+   "price": 11.87,
+   "kind": "bottom",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-06-05 09:35:00",
+   "price": 10.94835087,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-06-03 11:10:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-07-11 10:15:00",
+   "price": 12.6091847,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-07-10 13:40:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-10-09 09:45:00",
+   "price": 10.68462493,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-09-29 10:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2025-10-31 10:40:00",
+   "price": 10.9400046,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-11-03 09:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-02-02 10:40:00",
+   "price": 10.67860626,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-02-09 10:05:00 @ 10.756"
+  },
+  {
+   "struct": "seg",
+   "where": "ours_only",
+   "ts": "2026-02-03 09:55:00",
+   "price": 10.42688934,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2026-03-02 10:25:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-09-05 09:40:00",
+   "price": 8.97781838,
+   "kind": "bottom",
+   "category": "序列开头",
+   "note": "位于首个共同端点之前：两边对序列最前端（开头包含处理、第一笔）的处理不同"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-10-09 15:00:00",
+   "price": 10.49811027,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-31 10:00:00 @ 10.332"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2024-10-15 09:50:00",
+   "price": 11.24251311,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2024-10-08 09:35:00 @ 12.081"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-01-16 11:30:00",
+   "price": 10.65418863,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-08 09:50:00 @ 10.691"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-02-06 10:30:00",
+   "price": 10.3876041,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-01-13 10:20:00 @ 10.185"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-04-18 15:00:00",
+   "price": 10.28648583,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-03-14 13:10:00 @ 11.031"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-06 09:35:00",
+   "price": 10.01070873,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-04-07 14:25:00 @ 9.634"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-23 10:15:00",
+   "price": 10.6633812,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-06-05 09:35:00 @ 10.948"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-05-28 10:30:00",
+   "price": 10.51630008,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-03-04 09:50:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-06-03 11:10:00",
+   "price": 10.94835087,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-06-05 09:35:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-10 13:40:00",
+   "price": 12.6091847,
+   "kind": "top",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-07-11 10:15:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-16 10:10:00",
+   "price": 11.8507375,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-25 14:50:00 @ 11.690"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-07-18 11:15:00",
+   "price": 12.08775225,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-07-11 10:15:00 @ 12.609"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-09-29 10:50:00",
+   "price": 10.68462493,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-10-09 09:45:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-10-10 09:55:00",
+   "price": 10.89319791,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-23 09:55:00 @ 11.337"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-10-13 09:50:00",
+   "price": 10.69410552,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-10-09 09:45:00 @ 10.685"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-11-03 09:50:00",
+   "price": 10.9400046,
+   "kind": "bottom",
+   "category": "同价异根",
+   "note": "对方同价端点在 2025-10-31 10:40:00（极值相等时选取的原始 K 线不同）"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-11-18 14:35:00",
+   "price": 11.20140294,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-01 09:45:00 @ 11.172"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2025-11-26 09:35:00",
+   "price": 11.4724827,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2025-12-02 09:45:00 @ 11.356"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-04-24 09:50:00",
+   "price": 10.57211064,
+   "kind": "bottom",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-05-22 09:55:00 @ 10.311"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-05-08 09:35:00",
+   "price": 11.04650022,
+   "kind": "top",
+   "category": "端点位置差异",
+   "note": "对方邻近同类端点 2026-05-27 10:00:00 @ 10.504"
+  },
+  {
+   "struct": "seg",
+   "where": "theirs_only",
+   "ts": "2026-09-04 14:20:00",
+   "price": 11.94,
+   "kind": "top",
+   "category": "末端未确认",
+   "note": "位于任一方最后已确认端点之后，两边算法对末端处理不同"
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2024-10-09~2024-10-14",
+   "price": 11.02886306,
+   "kind": "zd=10.579 n=6",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-01-15~2025-01-22",
+   "price": 10.64499606,
+   "kind": "zd=10.516 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-01-23~2025-02-12",
+   "price": 10.47033723,
+   "kind": "zd=10.388 n=11",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-02-21~2025-02-28",
+   "price": 10.71853662,
+   "kind": "zd=10.645 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-04-18~2025-05-06",
+   "price": 10.14859728,
+   "kind": "zd=10.075 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-07-16~2025-07-25",
+   "price": 12.03086871,
+   "kind": "zd=11.889 n=8",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-10-10~2025-10-14",
+   "price": 10.86475614,
+   "kind": "zd=10.798 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2025-11-17~2025-12-01",
+   "price": 11.35630566,
+   "kind": "zd=11.250 n=14",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-01-20~2026-01-22",
+   "price": 10.7947833,
+   "kind": "zd=10.756 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-02-05~2026-02-09",
+   "price": 10.71733194,
+   "kind": "zd=10.640 n=4",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-05-06~2026-05-12",
+   "price": 11.02713738,
+   "kind": "zd=10.940 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "ours_only",
+   "ts": "2026-09-03~2026-09-04",
+   "price": 11.94,
+   "kind": "zd=11.870 n=3",
+   "category": "末端未确认",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2024-10-10~2024-10-14",
+   "price": 11.11381713,
+   "kind": "zd=10.838 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-01-22~2025-02-06",
+   "price": 10.47033723,
+   "kind": "zd=10.323 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-02-06~2025-02-12",
+   "price": 10.4795298,
+   "kind": "zd=10.434 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-02-21~2025-03-03",
+   "price": 10.73692176,
+   "kind": "zd=10.617 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-05-26~2025-05-28",
+   "price": 10.60822578,
+   "kind": "zd=10.525 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-07-11~2025-07-14",
+   "price": 12.48593703,
+   "kind": "zd=12.439 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-10-13~2025-10-14",
+   "price": 10.82683378,
+   "kind": "zd=10.770 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-11-20~2025-11-25",
+   "price": 11.43375702,
+   "kind": "zd=11.289 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-11-27~2025-11-28",
+   "price": 11.28853572,
+   "kind": "zd=11.230 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2025-12-16~2025-12-18",
+   "price": 11.1820401,
+   "kind": "zd=11.114 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-01-30~2026-02-06",
+   "price": 10.67860626,
+   "kind": "zd=10.514 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_bi",
+   "where": "theirs_only",
+   "ts": "2026-04-30~2026-05-06",
+   "price": 11.15299584,
+   "kind": "zd=11.105 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2024-09-12~2025-06-09",
+   "price": 11.031084,
+   "kind": "zd=10.332 n=16",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-06-19~2025-09-03",
+   "price": 11.92658222,
+   "kind": "zd=11.348 n=9",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2025-10-09~2025-12-19",
+   "price": 11.33694282,
+   "kind": "zd=10.940 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "ours_only",
+   "ts": "2026-01-29~2026-07-01",
+   "price": 10.67860626,
+   "kind": "zd=10.427 n=12",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2024-10-08~2024-12-17",
+   "price": 11.24251311,
+   "kind": "zd=10.498 n=7",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-01-16~2025-04-07",
+   "price": 10.65418863,
+   "kind": "zd=10.516 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-07-16~2025-08-25",
+   "price": 11.98346576,
+   "kind": "zd=11.851 n=5",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-10-23~2025-11-18",
+   "price": 11.33694282,
+   "kind": "zd=11.201 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2025-12-01~2025-12-19",
+   "price": 11.2788543,
+   "kind": "zd=11.172 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2026-01-29~2026-03-17",
+   "price": 10.71733194,
+   "kind": "zd=10.427 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  },
+  {
+   "struct": "zs_seg",
+   "where": "theirs_only",
+   "ts": "2026-05-22~2026-06-12",
+   "price": 10.5043407,
+   "kind": "zd=10.311 n=3",
+   "category": "中枢无对应",
+   "note": ""
+  }
+ ]
+}
