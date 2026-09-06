@@ -64,20 +64,29 @@ def pool(levels: Optional[str] = typer.Option("D", "--levels", "-l")):
     """自选股池批量生成 + index.html 总览。"""
     from .engine.assemble import assemble
     from .render.html_report import render_stock, render_index
+    from .data.store import Store
     cfg = load_config()
     stocks = wl.load(cfg.root / "watchlist.yaml")
     out_dir = cfg.root / "output"; out_dir.mkdir(exist_ok=True)
+    store = Store(cfg.db_path)
+    nav_rows = []
+    for s in stocks:
+        c = normalize(s["code"])
+        lvs = [lv for lv in (_levels(levels) or (LEVELS_CN if c.market == "CN" else LEVELS_HK))
+               if c.market != "HK" or lv in LEVELS_HK]
+        name = store.get_name(c.code) or ""
+        nav_rows += [{"code": c.code, "name": name, "level": lv, "file": f"{c.code}_{lv}.html", "last_bsp": ""} for lv in lvs]
+    store.close()
     rows = []
     for s in stocks:
         c = normalize(s["code"])
-        lvs = _levels(levels) or (LEVELS_CN if c.market == "CN" else LEVELS_HK)
+        lvs = [lv for lv in (_levels(levels) or (LEVELS_CN if c.market == "CN" else LEVELS_HK))
+               if c.market != "HK" or lv in LEVELS_HK]
         for lv in lvs:
-            if c.market == "HK" and lv not in LEVELS_HK:
-                continue
             try:
                 res = assemble(c.code, lv, cfg)
                 p = out_dir / f"{c.code}_{lv}.html"
-                render_stock(res, p, cfg, nav_rows=rows + [{"code": c.code, "name": res.meta.get("name", ""), "level": lv, "file": p.name, "last_bsp": ""}])
+                render_stock(res, p, cfg, nav_rows=nav_rows)
                 rows.append({"code": c.code, "name": res.meta.get("name", ""), "level": lv, "file": p.name,
                              "last_bsp": res.bsps[-1].summary() if res.bsps else "", "bars": len(res.bars)})
                 typer.echo(f"{c.code} {lv} ok")
